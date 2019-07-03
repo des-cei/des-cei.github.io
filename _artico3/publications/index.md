@@ -9,13 +9,15 @@ toc_max_header: 3
 toc_sticky: true
 ---
 
+## Cite ARTICo³
+
 Please, use the following reference if you use ARTICo³ in your scientific paper or if you want to cite it:
 
 **Rodríguez, A.; Valverde, J.; Portilla, J.; Otero, A.; Riesgo, T.; de la Torre, E. FPGA-Based High-Performance Embedded Systems for Adaptive Edge Computing in Cyber-Physical Systems: The ARTICo³ Framework. Sensors 2018, 18, 1877.**
 
 ```
 @Article{rodriguez18_artico3,
-    AUTHOR = {Rodr\'iguez, Alfonso and Valverde, Juan and Portilla, Jorge and Otero, Andr\'es and Riesgo, Teresa and De la Torre, Eduardo},
+    AUTHOR = {Rodr\'iguez, Alfonso and Valverde, Juan and Portilla, Jorge and Otero, Andr\'es and Riesgo, Teresa and de la Torre, Eduardo},
     TITLE = {% raw %}{{FPGA-Based High-Performance Embedded Systems for Adaptive Edge Computing in Cyber-Physical Systems: The ARTICo\textsuperscript{3} Framework}},{% endraw %}
     JOURNAL = {Sensors},
     VOLUME = {18},
@@ -28,6 +30,8 @@ Please, use the following reference if you use ARTICo³ in your scientific paper
 }
 ```
 
+
+## Publications
 
 ### Journal Publications
 
@@ -77,7 +81,7 @@ Please, use the following reference if you use ARTICo³ in your scientific paper
 
 
 
-### PhD Thesis
+### PhD Theses
 
 #### 2015
 
