@@ -280,6 +280,12 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  artico3:
+    output: true
+    permalink: /tools/:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -290,6 +296,14 @@ defaults:
       layout: single
       #~ author_profile: true
       #~ read_time: true
-      comments: # true
+      #~ comments: # true
       share: true
       related: true
+  # _artico3
+  - scope:
+      path: ""
+      type: artico3
+    values:
+      layout: single
+      sidebar:
+        nav: "artico3"
