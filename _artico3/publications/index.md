@@ -1,6 +1,12 @@
 ---
 title: "ARTICo³ Publications"
 permalink: /tools/artico3/publications
+
+toc: true
+toc_label: "Index"
+toc_min_header: 2
+toc_max_header: 3
+toc_sticky: true
 ---
 
 Please, use the following reference if you use ARTICo³ in your scientific paper or if you want to cite it:
