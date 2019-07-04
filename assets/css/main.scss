@@ -23,3 +23,8 @@ html {
         font-size: 18px; // originally 22px
     }
 }
+
+div p {
+    text-align: justify;
+    text-justify: inter-word;
+}
