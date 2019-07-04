@@ -18,6 +18,8 @@ artico3:
         url: /tools/artico3/tutorials/matmulfp
       - title: "04 - Register-Based Configuration"
         url: /tools/artico3/tutorials/regconf
+      - title: "05 - Working with New Board Templates"
+        url: /tools/artico3/tutorials/newboard
   - title: "Publications"
     url: /tools/artico3/publications
   - title: "Get ARTICo³"

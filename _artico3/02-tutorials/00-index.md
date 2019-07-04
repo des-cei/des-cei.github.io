@@ -23,3 +23,6 @@ toc_sticky: true
 
 ## [Register-Based Configuration](/tools/artico3/tutorials/regconf)
 
+
+
+## [Working with New Board Templates](/tools/artico3/tutorials/newboard)
