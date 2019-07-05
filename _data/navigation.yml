@@ -6,7 +6,21 @@ artico3:
   - title: "ARTICo³"
     url: /tools/artico3
   - title: "Documentation"
-    url: /tools/artico3/docs
+    children:
+      - title: "Execution Model"
+        url: /tools/artico3/docs/model
+      - title: "Kernel Specification"
+        url: /tools/artico3/docs/kernels
+      - title: "Runtime API"
+        url: /tools/artico3/docs/api
+      - title: "Project Structure"
+        url: /tools/artico3/docs/project
+      - title: "Toolchain"
+        url: /tools/artico3/docs/a3dk
+      - title: "Reference Designs"
+        url: /tools/artico3/docs/templates
+      - title: "Linux Driver & Device Tree"
+        url: /tools/artico3/docs/linux
   - title: "Tutorials"
     url: /tools/artico3/tutorials
     children:
