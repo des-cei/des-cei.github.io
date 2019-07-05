@@ -26,6 +26,10 @@ The ARTICo³ Framework provides three components to deploy reconfigurable and ad
 
 The ARTICo³ architecture operates in a **processor-coprocessor approach**, where computationally intensive tasks are offloaded to one or several accelerators to **exploit** both **task-** and **data-level parallelism**.
 
+{:refdef: style="text-align: center;"}
+![The ARTICo³ Architecture](/assets/images/artico3/architecture.svg)
+{: refdef}
+
 Hence, the Framework takes as **inputs** the **host application code** and the **descriptions** of the **hardware accelerators**.  These descriptions can be provided as low-level **HDL code** -- VHDL and Verilog are supported -- or as high-level **C/C++ code** -- High-Level Synthesis (HLS) is used in this scenario.
 
 Then, the Framework automatically composes and builds the multi-accelerator system, providing as **outputs** the **application binaries** and the **FPGA configuration files** (i.e., bitstreams).  It also **manages** all **Dynamic and Partial Reconfiguration** (DPR) processes, and **schedules** all **data-parallel processing** over the pool of instantiated **hardware accelerators** at run time.
