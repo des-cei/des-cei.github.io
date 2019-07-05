@@ -11,6 +11,15 @@ toc_sticky: true
 
 ## [First Steps](/tools/artico3/tutorials/setup)
 
+This tutorial covers the following topics:
+
+* Setting up a running environment for ARTICo³ applications in an FPGA board
+* Building applications with the ARTICo³ toolchain: hardware and software
+* Executing ARTICo³ applications in an FPGA board
+
+Requirements:
+
+* None
 
 
 ## [Integer Matrix Multiplication](/tools/artico3/tutorials/matmul)
