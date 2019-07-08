@@ -35,7 +35,7 @@ Requirements:
 * [First Steps](/tools/artico3/tutorials/setup)
 
 
-## [Floating Point Matrix Multiplication](/tools/artico3/tutorials/matmulfp)
+## [Floating Point Arithmetic](/tools/artico3/tutorials/matmulfp)
 
 
 
@@ -43,4 +43,4 @@ Requirements:
 
 
 
-## [Working with New Board Templates](/tools/artico3/tutorials/newboard)
+## [New Board Templates](/tools/artico3/tutorials/newboard)

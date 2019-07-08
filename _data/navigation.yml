@@ -28,11 +28,11 @@ artico3:
         url: /tools/artico3/tutorials/setup
       - title: "02 - Hello, World!"
         url: /tools/artico3/tutorials/matmul
-      - title: "03 - Floating Point Matrix Multiplication"
+      - title: "03 - Floating Point Arithmetic"
         url: /tools/artico3/tutorials/matmulfp
       - title: "04 - Register-Based Configuration"
         url: /tools/artico3/tutorials/regconf
-      - title: "05 - Working with New Board Templates"
+      - title: "05 - New Board Templates"
         url: /tools/artico3/tutorials/newboard
   - title: "Publications"
     url: /tools/artico3/publications
