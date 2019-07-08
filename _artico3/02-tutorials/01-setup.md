@@ -1,5 +1,5 @@
 ---
-title: "ARTICo³ - First Steps"
+title: "ARTICo³ -- First Steps"
 permalink: /tools/artico3/tutorials/setup
 
 toc: true
@@ -10,6 +10,13 @@ toc_sticky: true
 ---
 
 **Tutorial created on July 5, 2019 by [A. Rodríguez](mailto:alfonso.rodriguezm@upm.es)**
+
+
+This tutorial covers the following topics:
+
+* Setting up a running environment for ARTICo³ applications in an FPGA board
+* Building applications with the ARTICo³ toolchain: hardware and software
+* Executing ARTICo³ applications in an FPGA board
 
 
 ## Requirements
@@ -78,7 +85,7 @@ Wait for the installation to finish and execute the commands as hinted by the la
 
 ### Custom Distributions
 
-If you already have a custom distribution running on your FPGA board, please check the [documentation]() for more info on how to setup the basic infrastructure to start working with ARTICo³.
+If you already have a custom distribution running on your FPGA board, please check the [documentation](/tools/artico3/docs/linux) for more info on how to setup the basic infrastructure to start working with ARTICo³.
 
 
 ## First Application: Array Addition
@@ -92,7 +99,7 @@ Browse through the folders of the repository and go to ```artico3/demos/addvecto
 
 ![](/assets/images/artico3/tutorials/setup-04.png)
 
-This is the basic structure of an ARTICo³ project: a configuration file called ```build.cfg```, and a folder for all the source files called ```src```.  For more info on the ARTICo³ project structure, check out the [documentation]().
+This is the basic structure of an ARTICo³ project: a configuration file called ```build.cfg```, and a folder for all the source files called ```src```.  For more info on the ARTICo³ project structure, check out the [documentation](/tools/artico3/docs/project).
 
 
 ### Build the Project
@@ -183,7 +190,7 @@ Run the following script in ```/root```:
 ./setup.sh
 ```
 
-This will load the ARTICo³ kernel module and the Device Tree Overlay.  More info on this topic in the [documentation]() section.
+This will load the ARTICo³ kernel module and the Device Tree Overlay.  More info on this topic in the [documentation](/tools/artico3/docs/linux) section.
 
 :warning: **IMPORTANT:** the ```setup.sh``` script needs to be run only after the board has been powered up, not every time you want to execute an ARTICo³ application.
 
