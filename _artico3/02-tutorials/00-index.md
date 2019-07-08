@@ -22,8 +22,17 @@ Requirements:
 * None
 
 
-## [Integer Matrix Multiplication](/tools/artico3/tutorials/matmul)
+## [Hello, World!](/tools/artico3/tutorials/matmul)
 
+This tutorial covers the following topics:
+
+* Creating and configuring an ARTICo³ project
+* Describing an ARTICo³ accelerator in HLS-oriented C code
+* Using the ARTICo³ runtime API
+
+Requirements:
+
+* [First Steps](/tools/artico3/tutorials/setup)
 
 
 ## [Floating Point Matrix Multiplication](/tools/artico3/tutorials/matmulfp)

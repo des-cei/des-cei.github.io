@@ -209,4 +209,4 @@ Execute the ARTICo³ application from the shell:
 
 ![](/assets/images/artico3/tutorials/setup-08.png)
 
-This tutorial uses a demo application where no actual speed up is achieved by using ARTICo³.  If you want to start accelerating things, please move to the [Integer Matrix Multiplication](/tools/artico3/tutorials/matmul) tutorial.
+This tutorial uses a demo application where no actual speed up is achieved by using ARTICo³.  If you want to start accelerating things, please move to the [Hello, World!](/tools/artico3/tutorials/matmul) tutorial.

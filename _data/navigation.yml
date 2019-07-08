@@ -26,7 +26,7 @@ artico3:
     children:
       - title: "01 - First Steps"
         url: /tools/artico3/tutorials/setup
-      - title: "02 - Integer Matrix Multiplication"
+      - title: "02 - Hello, World!"
         url: /tools/artico3/tutorials/matmul
       - title: "03 - Floating Point Matrix Multiplication"
         url: /tools/artico3/tutorials/matmulfp
