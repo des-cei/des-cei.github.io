@@ -10,7 +10,7 @@ permalink: /tools/artico3
 **ARTICo³** is an **open-source runtime reconfigurable processing architecture** to enable **hardware-accelerated** high-performance embedded computing.  It is highly flexible, offering **adaptive** computing **performance**, **energy efficiency**, and **fault tolerance** on demand.
 
 {:refdef: style="text-align: center;"}
-[See the brochure](/assets/docs/artico3/artico3_brochure.pdf){:target="_blank"}
+[See the brochure](/assets/files/artico3/artico3_brochure.pdf){:target="_blank"}
 {: refdef}
 
 
