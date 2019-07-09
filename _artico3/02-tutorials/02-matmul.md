@@ -192,7 +192,7 @@ for (i = 0; i < 512; i += 64) {
 artico3_kernel_execute("matmul", 512, 64);
 ```
 
-This function starts the execution of the kernel ```matmul``` to multiply 512x64 unsigned integer matrices (second parameter, **global workload**) using accelerators capable of processing 64x64 unsigned integer matrices (third parameter, **local workload**).
+This function starts the execution of the kernel ```matmul``` to multiply, in parallel and in row-by-column fashion, an integer number of 64x64 matrices.  This number is obtained from the **local workload** (i.e., the size that one accelerator can process, in this case 64) and the **global workload** (i.e., the total amount of elements that need to be processed, in this case 512).  Effectively, this kernel gets a 64x512 matrix and a 512x64 matrix, splits them in chunks of 64x64 and performs their multiplication in parallel.  Then, the software gets these partial results and performs the accumulation to get the final result (see block-based algorithm above and the figure at the beginning of the tutorial).
 
 Since the previous call is asynchronous to the main program (i.e., the ARTICo³ runtime manages it in parallel to the user code), the latter needs to explicitly **wait for the kernel to finish its execution**.  This can be done by calling the ```artico3_kernel_wait``` function in ```main```:
 
@@ -313,6 +313,12 @@ Add the ARTICo³ toolchain to the path:
 
 ```bash
 source <path_to_artico3_repo>/tools/settings.sh
+```
+
+Start the ARTICo³ Development Kit:
+
+```bash
+a3dk
 ```
 
 Create software project:
