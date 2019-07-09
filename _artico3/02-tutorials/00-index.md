@@ -37,6 +37,13 @@ Requirements:
 
 ## [Floating Point Arithmetic](/tools/artico3/tutorials/matmulfp)
 
+This tutorial covers the following topics:
+
+* Using floating point data in ARTICo³ accelerators
+
+Requirements:
+
+* [First Steps](/tools/artico3/tutorials/setup)
 
 
 ## [Register-Based Configuration](/tools/artico3/tutorials/regconf)
