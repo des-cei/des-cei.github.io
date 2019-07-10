@@ -21,6 +21,7 @@ In this tutorial, you will use a block-based algorithm to multiply 512x512 matri
 This tutorial covers the following topics:
 
 * Using floating point data in ARTICo³ accelerators
+* Working with hardware redundancy in ARTICo³
 
 
 ## Requirements
@@ -154,6 +155,38 @@ Use the ARTICo³ toolchain to [build the project](/tools/artico3/tutorials/setup
 ![](/assets/images/artico3/tutorials/matmulfp-02.png)
 
 The complete solution of this tutorial can be downloaded from [here](/assets/files/artico3/tutorials/matmulfp_sol.tar.gz).
+
+
+### Enabling Hardware Redundancy
+
+Using hardware redundancy in ARTICo³ is easy: you only need to specify how accelerators are grouped during execution using the function ```artico3_load```.  In the original version of the application, kernels were loaded using the following code:
+
+```c
+for (i = 0; i < 4; i++) {
+    artico3_load("matmul", i, 0, 0, 1);
+}
+```
+
+This loads all 4 instances of the ```matmul``` kernel and configures them to operate in SIMD-like fashion (i.e., without hardware redundancy).  If you want to use the accelerators in two DMR groups, change the code to:
+
+```c
+artico3_load("matmul", 0, 0, 1, 1);
+artico3_load("matmul", 1, 0, 1, 1);
+artico3_load("matmul", 2, 0, 2, 1);
+artico3_load("matmul", 3, 0, 2, 1);
+```
+
+On the contrary, if you want to enable TMR in your application, change the code to:
+
+```c
+artico3_load("matmul", 0, 1, 0, 1);
+artico3_load("matmul", 1, 1, 0, 1);
+artico3_load("matmul", 2, 1, 0, 1);
+```
+
+After changing the code, make sure to ```clean_sw -r``` (to remove the previous software project), ```export_sw``` and ```build_sw```.  Then copy the application executable to the target platform and check the results.  Pay attention to the elapsed times vs. redundancy level tradeoff when using 4 (no redundancy), 2 (DMR) and 1 (TMR) [effective accelerator instances](/tools/artico3/docs/model).
+
+:warning: **IMPORTANT:** the last parameter of the ```artico3_load``` function can be set to 0 to avoid hardware reconfiguration if the kernel is already loaded in a particular slot.  This enables faster configuration changes in the hardware redundancy levels.
 
 
 ## Optimized Implementation

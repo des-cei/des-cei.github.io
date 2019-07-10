@@ -40,6 +40,7 @@ Requirements:
 This tutorial covers the following topics:
 
 * Using floating point data in ARTICo³ accelerators
+* Working with hardware redundancy in ARTICo³
 
 Requirements:
 
