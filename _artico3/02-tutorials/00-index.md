@@ -45,10 +45,20 @@ This tutorial covers the following topics:
 Requirements:
 
 * [First Steps](/tools/artico3/tutorials/setup)
+* [Hello, World!](/tools/artico3/tutorials/matmul)
 
 
 ## [Register-Based Configuration](/tools/artico3/tutorials/regconf)
 
+This tutorial covers the following topics:
+
+* Using configuration registers in ARTICo³ accelerators
+* Using bidirectional ports in ARTICo³ accelerators
+
+Requirements:
+
+* [First Steps](/tools/artico3/tutorials/setup)
+* [Floating Point Arithmetic](/tools/artico3/tutorials/matmulfp)
 
 
 ## [New Board Templates](/tools/artico3/tutorials/newboard)
