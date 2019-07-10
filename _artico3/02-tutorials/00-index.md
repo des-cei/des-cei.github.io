@@ -62,3 +62,11 @@ Requirements:
 
 
 ## [New Board Templates](/tools/artico3/tutorials/newboard)
+
+This tutorial covers the following topics:
+
+* Creating a custom reference template for an FPGA board
+
+Requirements:
+
+* [First Steps](/tools/artico3/tutorials/setup)
