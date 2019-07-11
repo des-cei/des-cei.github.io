@@ -38,25 +38,23 @@ Either using HDL or C source code, the toolchain generates a VHDL entity that is
 
 The following diagram represents the **expected memory bank distribution**, from the runtime library point of view, in ARTICo³ kernels.  Any other specification would result in undefined behavior.
 
-```
-┌───────────────────────┐        ┬
-│                       │ Write  │
-│    Constant Memory    │ Once   │
-│                       │        │
-├───────────────────────┤        │
-│                       │ Write  │
-│     Input Memory      │ Always │  INPUTS (DMA send)
-│                       │        │
-├───────────────────────┤        │   ┬
-│                       │ R/W    │   │
-│     InOut Memory      │ Always │   │
-│                       │        │   │
-├───────────────────────┤        ┴   │ OUTPUTS (DMA receive)
-│                       │ Read       │
-│     Output Memory     │ Always     │
-│                       │            │
-└───────────────────────┘            ┴
-```
+    ┌───────────────────────┐        ┬
+    │                       │ Write  │
+    │    Constant Memory    │ Once   │
+    │                       │        │
+    ├───────────────────────┤        │
+    │                       │ Write  │
+    │     Input Memory      │ Always │  INPUTS (DMA send)
+    │                       │        │
+    ├───────────────────────┤        │   ┬
+    │                       │ R/W    │   │
+    │     InOut Memory      │ Always │   │
+    │                       │        │   │
+    ├───────────────────────┤        ┴   │ OUTPUTS (DMA receive)
+    │                       │ Read       │
+    │     Output Memory     │ Always     │
+    │                       │            │
+    └───────────────────────┘            ┴
 
 :warning: **NOTE:** it is not mandatory to have all types of memory.  In fact, the **only requirement** is that the kernel has, **at least, one input memory port (either constant, input, or input/output)**.  Constant memory is written only once, usually in the first processing round of a kernel execution, but it is also triggered internally whenever a new copy of an accelerator is loaded and when the constant memory buffer is deallocated and allocated again (see example below).
 
@@ -178,14 +176,12 @@ The **naming convention** for input/output register/memories is as follows:
 
 :warning: **NOTE:** the **timing of the START/READY pair** has to be the following:
 
-```
-        __    __    __    __    __    __    __    __    __    __    __
-clk   _/  \__/  \__/  \__/  \__/  \__/  \__/  \__/  \__/  \__/  \__/  \_
-                     _____                               _____
-start ______________/     \_____________________________/     \_________
-      ____________________             _______________________
-ready                     \___________/                       \_________
-```
+            __    __    __    __    __    __    __    __    __    __    __
+    clk   _/  \__/  \__/  \__/  \__/  \__/  \__/  \__/  \__/  \__/  \__/  \_
+                         _____                               _____
+    start ______________/     \_____________________________/     \_________
+          ____________________             _______________________
+    ready                     \___________/                       \_________
 
 
 ## C-Based HLS Kernel Specification
