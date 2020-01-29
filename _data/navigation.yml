@@ -1,6 +1,8 @@
 main:
   - title: "ARTICo³"
     url: /tools/artico3
+  - title: "IMPRESS"
+    url: /tools/impress
 
 artico3:
   - title: "ARTICo³"
@@ -38,3 +40,28 @@ artico3:
     url: /tools/artico3/publications
   - title: "Get ARTICo³"
     url: /tools/artico3/get
+
+impress:
+  - title: "IMPRESS"
+    url: /tools/impress
+  - title: "Documentation"
+    children:
+      - title: "Design-Time"
+        url: /tools/impress/docs/designtime
+      - title: "Run-Time"
+        url: /tools/impress/docs/runtime
+      - title: "Recommendations"
+        url: /tools/impress/docs/recommendations
+  - title: "Tutorials"
+    url: /tools/impress/tutorials
+    children:
+      - title: "01 - Coarse-Grain"
+        url: /tools/impress/tutorials/coarse
+      - title: "02 - Medium-Grain"
+        url: /tools/impress/tutorials/medium
+      - title: "03 - Fine-Grain"
+        url: /tools/impress/tutorials/fine
+  - title: "Publications"
+    url: /tools/impress/publications
+  - title: "Get IMPRESS"
+    url: /tools/impress/get
