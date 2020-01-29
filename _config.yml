@@ -285,6 +285,9 @@ collections:
   artico3:
     output: true
     permalink: /tools/:collection/:path/
+  impress:
+    output: true
+    permalink: /tools/:collection/:path/
 
 # Defaults
 defaults:
@@ -307,3 +310,11 @@ defaults:
       layout: single
       sidebar:
         nav: "artico3"
+  # _impress
+  - scope:
+      path: ""
+      type: impress
+    values:
+      layout: single
+      sidebar:
+        nav: "impress"
