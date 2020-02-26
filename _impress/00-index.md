@@ -10,9 +10,9 @@ permalink: /tools/impress
 
 **IMPRESS** (IMplementation of Partial REconfigurable SystemS) is an open-source reconfiguration tool for implementing multi-grain reconfigurable systems in Xilinx Series 7 FPGAs and Zynq-7000 SoC.
 
-<!-- {:refdef: style="text-align: center;"}
-[See the brochure](/assets/files/artico3/artico3_brochure.pdf){:target="_blank"}
-{: refdef} -->
+{:refdef: style="text-align: center;"}
+[See the brochure](/assets/files/impress/impress_cerbero_brochure.pdf){:target="_blank"}
+{: refdef}
 
 
 ## Design-Time Support
