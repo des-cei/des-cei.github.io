@@ -52,7 +52,7 @@ Please, use the following reference if you use ARTICo³ in your scientific paper
 
 #### 2019
 
-* A. Ortiz, A. Rodríguez, A. Otero and E. de la Torre, "Data Transfer Modeling and Optimization in Reconfigurable Multi-Accelerator Systems," 2019 14th International Symposium on Reconfigurable Communication-centric Systems-on-Chip (ReCoSoC), York, 2019, pp. 1-7.
+* A. Ortiz, A. Rodríguez, A. Otero and E. de la Torre, "[Data Transfer Modeling and Optimization in Reconfigurable Multi-Accelerator Systems](https://ieeexplore.ieee.org/document/9034940){:target="_blank"}," 2019 14th International Symposium on Reconfigurable Communication-centric Systems-on-Chip (ReCoSoC), York, United Kingdom, 2019, pp. 20-26.
 
 
 #### 2018
@@ -75,9 +75,9 @@ Please, use the following reference if you use ARTICo³ in your scientific paper
 
 #### 2014
 
-* J. Valverde et al., "[A dynamically adaptable bus architecture for trading-off among performance, consumption and dependability in Cyber-Physical Systems](https://ieeexplore.ieee.org/document/6927394)," 2014 24th International Conference on Field Programmable Logic and Applications (FPL), Munich, 2014, pp. 1-4.
+* J. Valverde et al., "[A dynamically adaptable bus architecture for trading-off among performance, consumption and dependability in Cyber-Physical Systems](https://ieeexplore.ieee.org/document/6927394){:target="_blank"}," 2014 24th International Conference on Field Programmable Logic and Applications (FPL), Munich, 2014, pp. 1-4.
 
-* A. Rodríguez, J. Valverde, E. de la Torre and T. Riesgo, "[Dynamic management of multikernel multithread accelerators using Dynamic Partial Reconfiguration](https://ieeexplore.ieee.org/document/6861363)," 2014 9th International Symposium on Reconfigurable and Communication-Centric Systems-on-Chip (ReCoSoC), Montpellier, 2014, pp. 1-7.
+* A. Rodríguez, J. Valverde, E. de la Torre and T. Riesgo, "[Dynamic management of multikernel multithread accelerators using Dynamic Partial Reconfiguration](https://ieeexplore.ieee.org/document/6861363){:target="_blank"}," 2014 9th International Symposium on Reconfigurable and Communication-Centric Systems-on-Chip (ReCoSoC), Montpellier, 2014, pp. 1-7.
 
 
 
