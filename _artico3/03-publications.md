@@ -35,6 +35,12 @@ Please, use the following reference if you use ARTICo³ in your scientific paper
 
 ### Journal Publications
 
+#### 2020
+
+* L. Suriano, A. Otero, A. Rodríguez, M. Sánchez-Renedo and E. de la Torre, "[Exploiting Multi-Level Parallelism for Run-Time Adaptive Inverse Kinematics on Heterogeneous MPSoCs](https://ieeexplore.ieee.org/document/9126798){:target="_blank"}," in IEEE Access, vol. 8, pp. 118707-118724, 2020.
+
+* A. Pérez, A. Rodríguez, A. Otero, D. G. Arjona, Á. Jiménez-Peralo, M. Á. Verdugo and E. de la Torre, "[Run-Time Reconfigurable MPSoC-Based On-Board Processor for Vision-Based Space Navigation](https://ieeexplore.ieee.org/document/9046812){:target="_blank"}," in IEEE Access, vol. 8, pp. 59891-59905, 2020.
+
 #### 2019
 
 * A. Rodríguez, L. Santos, R. Sarmiento and E. de la Torre, "[Scalable Hardware-Based On-Board Processing for Run-Time Adaptive Lossless Hyperspectral Compression](https://ieeexplore.ieee.org/document/8610106){:target="_blank"}," in IEEE Access, vol. 7, pp. 10644-10652, 2019.
@@ -49,6 +55,10 @@ Please, use the following reference if you use ARTICo³ in your scientific paper
 
 
 ### Conference Publications
+
+#### 2020
+
+* A. Ortiz, R. Zamacola, A. Rodríguez, A. Otero, E. de la Torre, "[Automated Toolchain for Enhanced Productivity in Reconfigurable Multi-accelerator Systems](https://doi.org/10.1007/978-3-030-44534-8_4){:target="_blank"}", in F. Rincón, J. Barba, H. K. H. So, P. Diniz, J. Caba, editors, Applied Reconfigurable Computing. Architectures, Tools, and Applications, pp. 45–60, Springer International Publishing, Cham, 2020.
 
 #### 2019
 
