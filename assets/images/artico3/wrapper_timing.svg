@@ -13,7 +13,7 @@
    height="46.831276mm"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="wrapper_timing.svg"
    inkscape:export-filename="C:\Users\Admin\Desktop\Papers_2016\2016 IEEE Transactions on Computers SS\latex\img\opencl.png"
    inkscape:export-xdpi="600"
@@ -1156,8 +1156,8 @@
          height="675.79205"
          x="1257.6399"
          y="898.81897"
-         rx="1.5544171e-007"
-         ry="1.5544171e-007" />
+         rx="1.5544171e-07"
+         ry="1.5544171e-07" />
     </clipPath>
     <marker
        inkscape:stockid="TriangleOutM"
@@ -1199,8 +1199,8 @@
          height="675.79205"
          x="1257.6399"
          y="898.81897"
-         rx="1.5544171e-007"
-         ry="1.5544171e-007" />
+         rx="1.5544171e-07"
+         ry="1.5544171e-07" />
     </clipPath>
     <marker
        inkscape:stockid="TriangleOutM"
@@ -1947,8 +1947,8 @@
          height="622.00885"
          x="2459.5989"
          y="472.77975"
-         ry="1.5544171e-007"
-         rx="1.5544171e-007" />
+         ry="1.5544171e-07"
+         rx="1.5544171e-07" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -1960,8 +1960,8 @@
          height="622.00885"
          x="2459.5989"
          y="472.77975"
-         ry="1.5544171e-007"
-         rx="1.5544171e-007" />
+         ry="1.5544171e-07"
+         rx="1.5544171e-07" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -1973,8 +1973,8 @@
          height="622.00885"
          x="2459.5989"
          y="472.77975"
-         ry="1.5544171e-007"
-         rx="1.5544171e-007" />
+         ry="1.5544171e-07"
+         rx="1.5544171e-07" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -1986,8 +1986,8 @@
          height="536.83032"
          x="2459.5989"
          y="557.95825"
-         ry="1.5544171e-007"
-         rx="1.5544171e-007" />
+         ry="1.5544171e-07"
+         rx="1.5544171e-07" />
     </clipPath>
     <marker
        inkscape:stockid="Arrow2Mend"
@@ -2576,8 +2576,8 @@
          height="675.79205"
          x="1257.6399"
          y="898.81897"
-         rx="1.5544171e-007"
-         ry="1.5544171e-007" />
+         rx="1.5544171e-07"
+         ry="1.5544171e-07" />
     </clipPath>
     <marker
        inkscape:stockid="TriangleOutM"
@@ -2671,8 +2671,8 @@
          height="622.00885"
          x="2459.5989"
          y="472.77975"
-         ry="1.5544171e-007"
-         rx="1.5544171e-007" />
+         ry="1.5544171e-07"
+         rx="1.5544171e-07" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -2684,8 +2684,8 @@
          height="622.00885"
          x="2459.5989"
          y="472.77975"
-         ry="1.5544171e-007"
-         rx="1.5544171e-007" />
+         ry="1.5544171e-07"
+         rx="1.5544171e-07" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -3487,9 +3487,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="187.4084"
-     inkscape:cy="35.450125"
+     inkscape:zoom="1.5997238"
+     inkscape:cx="302.2883"
+     inkscape:cy="56.061429"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -3517,8 +3517,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid3217"
-       originx="-1377.1873"
-       originy="479.06262"
+       originx="-1377.1872"
+       originy="479.06264"
        spacingx="0.93750005"
        spacingy="0.93750005" />
   </sodipodi:namedview>
@@ -3540,14 +3540,14 @@
      id="layer1"
      transform="translate(-1377.1871,-1365.487)">
     <g
-       id="g4899">
+       id="g3387">
       <rect
          y="1380.4869"
-         x="1482.1873"
+         x="1515.9375"
          height="32.812576"
-         width="256.87479"
+         width="223.12457"
          id="rect5944-1-5-1-6"
-         style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:1.875;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="fill:#b3b3b3;fill-opacity:1;stroke:#b3b3b3;stroke-width:1.87500012;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          y="1380.4871"
          x="1824.3748"
@@ -3704,12 +3704,12 @@
          transform="scale(1.0033769,0.99663447)"
          id="text6137-4-1-9"
          y="1406.9497"
-         x="1571.5345"
+         x="1588.3529"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.08104515px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.87500012;stroke-miterlimit:4;stroke-dasharray:none"
          xml:space="preserve"><tspan
            style="font-size:15.00000095px;line-height:1.25;fill:#ffffff;fill-opacity:1;stroke-width:1.87500012;stroke-miterlimit:4;stroke-dasharray:none"
            y="1406.9497"
-           x="1571.5345"
+           x="1588.3529"
            id="tspan6135-15-1-46"
            sodipodi:role="line">Execute</tspan></text>
     </g>
