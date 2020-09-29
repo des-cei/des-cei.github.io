@@ -37,9 +37,12 @@ Please, use the following reference if you use ARTICo³ in your scientific paper
 
 #### 2020
 
+* Barrios, Y.; Rodríguez, A.; Sánchez, A.; Pérez, A.; López, S.; Otero, A.; de la Torre, E.; Sarmiento, R. [Lossy Hyperspectral Image Compression on a Reconfigurable and Fault-Tolerant FPGA-Based Adaptive Computing Platform](https://www.mdpi.com/2079-9292/9/10/1576){:target="_blank"}. Electronics 2020, 9, 1576.
+
 * L. Suriano, A. Otero, A. Rodríguez, M. Sánchez-Renedo and E. de la Torre, "[Exploiting Multi-Level Parallelism for Run-Time Adaptive Inverse Kinematics on Heterogeneous MPSoCs](https://ieeexplore.ieee.org/document/9126798){:target="_blank"}," in IEEE Access, vol. 8, pp. 118707-118724, 2020.
 
 * A. Pérez, A. Rodríguez, A. Otero, D. G. Arjona, Á. Jiménez-Peralo, M. Á. Verdugo and E. de la Torre, "[Run-Time Reconfigurable MPSoC-Based On-Board Processor for Vision-Based Space Navigation](https://ieeexplore.ieee.org/document/9046812){:target="_blank"}," in IEEE Access, vol. 8, pp. 59891-59905, 2020.
+
 
 #### 2019
 
@@ -53,12 +56,12 @@ Please, use the following reference if you use ARTICo³ in your scientific paper
 * Rodríguez, A.; Valverde, J.; Portilla, J.; Otero, A.; Riesgo, T.; de la Torre, E. [FPGA-Based High-Performance Embedded Systems for Adaptive Edge Computing in Cyber-Physical Systems: The ARTICo³ Framework](https://www.mdpi.com/1424-8220/18/6/1877){:target="_blank"}. Sensors 2018, 18, 1877.
 
 
-
 ### Conference Publications
 
 #### 2020
 
 * A. Ortiz, R. Zamacola, A. Rodríguez, A. Otero, E. de la Torre, "[Automated Toolchain for Enhanced Productivity in Reconfigurable Multi-accelerator Systems](https://doi.org/10.1007/978-3-030-44534-8_4){:target="_blank"}", in F. Rincón, J. Barba, H. K. H. So, P. Diniz, J. Caba, editors, Applied Reconfigurable Computing. Architectures, Tools, and Applications, pp. 45–60, Springer International Publishing, Cham, 2020.
+
 
 #### 2019
 
@@ -88,7 +91,6 @@ Please, use the following reference if you use ARTICo³ in your scientific paper
 * J. Valverde et al., "[A dynamically adaptable bus architecture for trading-off among performance, consumption and dependability in Cyber-Physical Systems](https://ieeexplore.ieee.org/document/6927394){:target="_blank"}," 2014 24th International Conference on Field Programmable Logic and Applications (FPL), Munich, 2014, pp. 1-4.
 
 * A. Rodríguez, J. Valverde, E. de la Torre and T. Riesgo, "[Dynamic management of multikernel multithread accelerators using Dynamic Partial Reconfiguration](https://ieeexplore.ieee.org/document/6861363){:target="_blank"}," 2014 9th International Symposium on Reconfigurable and Communication-Centric Systems-on-Chip (ReCoSoC), Montpellier, 2014, pp. 1-7.
-
 
 
 ### PhD Theses
