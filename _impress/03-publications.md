@@ -37,6 +37,11 @@ month={Dec},}
 
 ### Conference Publications
 
+#### 2020
+
+* A. Ortiz, R. Zamacola, A. Rodríguez, A. Otero, E. de la Torre, "[Automated Toolchain for Enhanced Productivity in Reconfigurable Multi-accelerator Systems](https://doi.org/10.1007/978-3-030-44534-8_4){:target="_blank"}", in F. Rincón, J. Barba, H. K. H. So, P. Diniz, J. Caba, editors, Applied Reconfigurable Computing. Architectures, Tools, and Applications, pp. 45–60, Springer International Publishing, Cham, 2020.
+
+
 #### 2019
 
 * R. Zamacola, A. García Martínez, J. Mora, A. Otero and E. de la Torre, "[Automated Tool and Runtime Support for Fine-Grain Reconfiguration in Highly Flexible Reconfigurable Systems](https://ieeexplore.ieee.org/document/8735522){:target="_blank"}," 2019 IEEE 27th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), San Diego, CA, USA, 2019, pp. 307-307.
