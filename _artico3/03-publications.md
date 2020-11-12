@@ -95,6 +95,11 @@ Please, use the following reference if you use ARTICo³ in your scientific paper
 
 ### PhD Theses
 
+#### 2020
+
+* Rodríguez Medina, Alfonso (2020). [A Framework to Support Run-Time Adaptation in Reconfigurable Multi-Accelerator Systems](http://oa.upm.es/65388/){:target="_blank"}. Thesis (Doctoral), E.T.S.I. Industriales (UPM).
+
+
 #### 2015
 
 * Valverde Alcalá, Juan (2015). [Run-Time Dynamically-Adaptable FPGA-Based Architecture for High-Performance Autonomous Distributed Systems](http://oa.upm.es/39365/){:target="_blank"}. Thesis (Doctoral), E.T.S.I. Industriales (UPM).
